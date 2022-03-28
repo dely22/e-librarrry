@@ -1,0 +1,275 @@
+:root {
+    --se-color: #f7faff;
+    --hint-se: #8a98aa;
+    --bg: #ffffff;
+    --blue: #2269d3;
+    --border: #1d65d0;
+    --red: #d40b0e;
+    --not: #fff9ec;
+    --not-bord-yello: #feda21;
+    --star: #fdc82b;
+    --p-color: #f9fafc;
+    --drop-bg: #eff2f7;
+    --c: #9ba1a9;
+    --cc: #96a3b4;
+    --title: #303d4c;
+    }
+    html {
+        font-size: 90%;
+        overflow-x: hidden;
+        scroll-padding-top: 7rem;
+        scroll-behavior: smooth;
+        direction: rtl;
+      
+      }
+    
+    .check .titel{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: flex-start;
+        
+        padding-inline-start: 5rem;
+        
+    }
+    .check .titel img{
+        position: relative;
+        top: 22px;
+        display: inline;
+        width: 25px;
+        height: 25px;
+        padding-inline-end: .5rem;
+    }
+    .check .titel h3{
+        font-size: 2rem;
+        color: #42526e;
+    }
+    sub{
+        color: var(--hint-se);
+        font-size: 1.5rem;
+        padding-right:.4rem;
+        opacity: .6;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        padding-inline: 5rem;
+        
+
+    }
+    .book-salcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .books-container{
+        box-shadow: 0px 2px 4px var(--hint-se);
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-block-end:1rem ;
+        height: 50%;
+    }
+   
+    .row-tit img{
+        width: 25px;
+
+    }
+   
+    .text {
+        background: var(--not);
+        padding: 1rem;
+        border-right: .7rem solid var(--not-bord-yello);
+        border-radius: .3rem;
+        margin: 1rem;
+        width: 100%;
+      }
+      .text a{
+          text-decoration: none;
+          color: var(--blue);
+      }
+      .titel{
+          padding-inline-start: 2rem;
+      }
+
+    .tito{
+            display: flex;
+            justify-content:flex-start
+        
+        }
+    .row-tit{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .p-tborder{
+        border-top: 1px solid var(--cc);
+        padding-inline-start: .5rem;
+        padding-block-start: .5rem;
+        color: var(--title);
+        padding-block-end:0 ;
+    }
+    .row-tit .tito img{
+        position: relative;
+        top:15px;
+        width: 30px;
+        height: 30px;
+        padding:0  .5rem ;
+    }
+    .row-tit .tito h3{
+        color: var(--title);
+        opacity: .9;
+    }
+    .row-tit i{
+        padding-inline-start: 4rem;
+        color: var(--hint-se);
+    }
+    .data{
+        display: flex;
+        padding: 1rem;
+    }
+    .pris-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 40%;
+    }
+    .pris-btn p{
+        color: var(--red);
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .pris-btn p span{
+        font-weight: 400;
+        opacity: .6;
+    }
+    .pris-btn .number{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .pris-btn .number span{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid var(--hint-se);
+        border-left: none;
+        border-radius: 4px;
+        padding: .5rem;
+    }
+    .pris-btn .number .btns{
+        display: flex;
+        flex-direction: column;
+        
+        /* align-items: center; */
+
+    }
+    .pris-btn .number .btns button{
+        background: var(--se-color);
+        border: 1px solid var(--hint-se);
+        border-top-left-radius: 4px;
+
+    }
+    .pris-btn .number .btns button:nth-child(2){
+        border-bottom-left-radius: 4px;
+    }
+    .sal-detail{
+        box-shadow: 0px 2px 4px var(--hint-se);
+        padding: 1rem;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        height: 50%;
+    }
+    .sum{
+        margin-block-end:5rem ;
+    }
+
+    .sum-details{
+        display: flex;
+        justify-content: space-around;
+    }
+    .sum-details span{
+        font-size: 2rem;
+        color: var(--title);
+        font-weight: 700;
+
+    }
+    .sum-details .green{
+        color: #09dd4e;
+        font-size: 2.5rem;
+
+
+    }
+    .all-sum{
+        display: flex;
+        justify-content: space-around;
+       width: 100%;
+
+    }
+    .all-sum h3{
+        color: var(--red);
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+    h3 span{
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: var(--c);
+        padding: 0 1.2rem;
+    }
+    .all-sum p{
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--red);
+        padding: 0 1rem;
+    }
+    .all-sum p span{
+        font-size: 1rem;
+        font-weight: 300;
+        color: var(--red);
+       
+    }
+    .condtion{
+        color: var(--cc);
+        font-size: 1.5rem;
+        font-weight: 500;
+        
+    }
+    .condtion a{
+        text-decoration: none;
+        color: var(--blue);
+    }
+    .addbtn{
+        background: var(--red);
+        width: 100%;
+        font-size: 2rem;
+        padding:1.3rem 0;
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    @media (max-width:991px) {
+        html{
+            font-size: 60%;
+        }
+        /* .check{
+            margin: 10px;
+        } */
+        .content{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+         }
+         .books-container, .sal-detail{
+             width: 90%;
+             flex-direction: column;
+             padding:1.2rem ;
+             margin:2rem  0;
+         }
+    }

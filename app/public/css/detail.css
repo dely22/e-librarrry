@@ -1,0 +1,325 @@
+:root {
+    --se-color: #f7faff;
+    --hint-se: #8a98aa;
+    --bg: #ffffff;
+    --blue: #2269d3;
+    --border: #1d65d0;
+    --red: #d40b0e;
+    --not: #fff9ec;
+    --not-bord-yello: #feda21;
+    --star: #fdc82b;
+    --p-color: #f9fafc;
+    --drop-bg: #eff2f7;
+    --c: #9ba1a9;
+    --cc: #96a3b4;
+    --title: #303d4c;
+}
+
+nav a {
+    color: var(--blue);
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.continer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+
+}
+
+.book {
+    padding: 2rem;
+    /* border: 1px solid var(--cc); */
+    border-radius: 1rem;
+    box-shadow: 2px 2px 10px var(--cc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slido {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.slido img {
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid var(--border);
+    object-fit: fill;
+    border-radius: 1rem;
+    padding: .5rem;
+
+}
+
+.bo-detail {
+    display: flex;
+    flex-direction: column;
+    /* background: #0ee; */
+}
+
+.pric {
+    display: flex;
+    flex-direction: column;
+}
+
+.bo-detail h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--title);
+}
+
+.pric p {
+    font-size: 1.5rem;
+    color: var(--blue);
+    font-weight: 500;
+}
+
+.pric p:nth-child(2), .format p:nth-child(2) {
+    font-size: 2.5rem;
+    color: var(--red);
+    font-weight: 700;
+}
+
+.pric p:nth-child(2) span, .format p span {
+    font-size: 2rem;
+    color: var(--red);
+    font-weight: 400;
+}
+
+.pric span:nth-child(3) {
+    font-size: 1rem;
+    color: var(--hint-se);
+    font-weight: 700;
+    align-items: center;
+}
+
+.star {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.5rem;
+}
+
+.star span {
+    color: var(--hint-se);
+}
+
+.star p {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.star p span {
+    color: var(--star);
+}
+
+.format .option {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    padding-right: 0;
+}
+
+.format p {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    color: var(--title);
+}
+
+.format label {
+    font-size: 1.6rem;
+    padding-top: 1.5rem;
+}
+
+input {
+    font-size: 1.5rem;
+    background: var(--blue);
+    color: #fff;
+}
+
+.shoop {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: 2px 2px 10px var(--cc);
+}
+
+.shoop .text {
+    background: var(--not);
+    padding: 1rem;
+    border-right: .7rem solid var(--not-bord-yello);
+    border-radius: .5rem;
+    margin: 1rem;
+
+}
+
+.shoop p, .shoop a {
+    font-size: 1.5rem;
+}
+
+.shoop .add {
+    display: flex;
+}
+
+.shoop .add button  {
+    background-color: var(--c);
+    width: 15%;
+    margin: .7rem;
+    color: #222;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.shoop .add button:nth-child(2)  {
+    background-color: var(--red);
+    width: 85%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+    font-weight: 600;
+}
+.add a{
+    padding-bottom: 3rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.prop {
+    background: var(--se-color);
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.prop a {
+    color: var(--title);
+}
+
+.prop .row {
+    /* padding: 1rem; */
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    background: var(--cc);
+    width: 4px;
+}
+
+.shar {
+    display: flex;
+    border-top: 1px solid var(--cc);
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.shar button {
+    margin: .5rem;
+    box-shadow: 4px 4px 10px var(--c);
+    background: #fff;
+    color: var(--title);
+    width: 10rem;
+    padding: 1rem;
+}
+
+.descrip {
+    background: var(--p-color);
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+/*  slide images of book style */
+.sl-content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:10rem;
+
+    }
+
+    .bookImgSlides {
+    display: none;
+    }
+
+
+    .leftslid{
+    position: relative;
+    float: left;
+    text-align: left;
+    top:12rem;
+    left: 4rem;
+    cursor: pointer; 
+    color: black;
+    font-size: 2rem;
+    }
+    .rightslid{
+    position: relative;
+    float: right;
+    text-align: right;
+    top:12rem;
+    right: 4rem;
+    cursor: pointer;
+    color: black;
+    font-size: 2rem;
+    }
+    .rightslid:hover, .leftslid:hover{
+    color: blue;
+    }
+    .imgslid{
+    position: relative;
+    top:5rem;
+    display: flex;
+    justify-content: center; 
+
+    }
+    .imgslid img{
+    width: 50px;
+    height: 55px;
+    position: relative;
+    top:6rem;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    }
+    /* .imgslid img:first-child{
+    margin-left: 0;
+    } */
+    .imghover:hover{
+    border: 1px solid blue;
+    cursor: pointer;
+    }
+    .s-active{
+    border: 1px solid blue;
+
+    }
+    .contSlid{
+    position: absolute;
+    bottom: 0;
+    /* left: 50%;ب
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%) */
+    }
+@media (max-width:991px) {
+   .det-books, .tit_nav,.continer,.bo-detail,.star,.format,.option, .shoop, .shar,.add ,.prop,.row{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+        width: 100%;
+    }
+    
+}
