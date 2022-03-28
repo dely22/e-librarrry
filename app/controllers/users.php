@@ -1,6 +1,11 @@
 <?php
-require_once 'controller.php';
-require_once 'app/system/validation.php';
+
+namespace App\Controllers;
+
+namespace App\Validation;
+
+use App\Controllers\Controller;
+
 class Users extends Controller
 {
     public function __construct()
@@ -42,40 +47,7 @@ class Users extends Controller
                 'repass' => ["data" => $reTypePassword, "required" => true],
             );
 
-            if (Validation::validateUser($data)) {
-
-                if ($userName != "" && $password != "" && $email != "") {
-                    $user_data = array(
-                        'name' => $userName,
-                        'password' => md5($password),
-                        'email' => $email,
-                        'repass' => $reTypePassword,
-                    );
-                    $u = $this->model('user');
-                    $message = "";
-                    if ($u->insert($user_data)) {
-                        $type = 'success';
-                        $message = "user created successful";
-                        $this->view('feedback', array('type' => $type, 'message' => $message));
-                    } else {
-                        $type = 'danger';
-                        $message = "can not create user please check your data ";
-
-                        $this->view('register', array('type' => $type, 'message' => $message, 'form_values' => $_POST));
-                    }
-                }
-            } else {
-                $type = 'danger';
-                $message = "can not create user please check your data ";
-
-                $err = array(
-                    'nameErr' => Validation::$userNameError,
-                    'passErr' => Validation::$passwordError,
-                    'rePassErr' => Validation::$rePasswordError,
-                    'emailErr' => Validation::$emailError
-                );
-                $this->view('register', array('type' => $type, 'message' => $message, 'form_values' => $_POST, 'Errors' => $err));
-            }
+            //   val
         }
     }
     function register()

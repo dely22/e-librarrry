@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15app/public/css/all.min.css" />
 
   <!-- custom css file link  -->
-  <link rel="stylesheet" href="app/publapp/public/css/hom.css" />
-  <link rel="stylesheet" href="app/publapp/public/css/sing.css" />
-  <link rel="stylesheet" href="app/publapp/public/css/style.css" />
-  <link rel="stylesheet" href="app/publapp/public/css/slide.css" />
+  <link rel="stylesheet" href="app/public/css/hom.css" />
+  <link rel="stylesheet" href="app/public/css/sing.css" />
+  <link rel="stylesheet" href="app/public/css/style.css" />
+  <link rel="stylesheet" href="app/public/css/slide.css" />
   <!-- <link rel="stylesheet" href="slider.css" /> -->
 </head>
 
@@ -54,7 +54,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
       </form>
       <div class="iconShopping" id="">
         <button type="button" class="icon-button">
-          <a href="pages/checkout.html" class="fas fa-shopping-cart"></a>
+          <a href="/checkout" class="fas fa-shopping-cart"></a>
           <p id='cart-counter' class="icon-button__badge">0</p>
           <!-- icon noto end -->
       </div>
@@ -247,7 +247,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>العروض الحالية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
       <div class="offers">
 
@@ -255,7 +255,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 1 ------ -->
         <div class="offer">
           <!-- -->
-          <a href="pages/detailes.html">
+          <a href="/detailes">
             <img src="app/public/img/books/beYou.jpg" /></a>
           <div class="type">
             <img src="app/public/img/svg/bookRed.svg" alt="" />
@@ -291,7 +291,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
         <!-- ------ offer 2 ------ -->
         <div class="offer">
           <!-- -->
-          <a href="pages/detailes.html">
+          <a href="/detailes">
             <img src="app/public/img/books/beYou.jpg" /></a>
           <div class="type">
             <img src="app/public/img/svg/bookRed.svg" alt="" />
@@ -322,7 +322,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
         <!-- ------ offer 3 ------ -->
         <div class="offer">
-          <a href="pages/detailes.html">
+          <a href="/detailes">
             <img src="app/public/img/books/beYou.jpg" /></a>
 
           <div class="type">
@@ -358,7 +358,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
         <!-- ------ offer 4 ------ -->
         <div class="offer">
-          <a href="pages/detailes.html">
+          <a href="/detailes">
             <img src="app/public/img/books/beYou.jpg" /></a>
 
           <div class="type">
@@ -394,7 +394,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
 
         <!-- ------ offer 5 ------ -->
         <div class="offer">
-          <a href="pages/detailes.html">
+          <a href="/detailes">
             <img src="app/public/img/books/beYou.jpg" /></a>
 
           <div class="type">
@@ -435,14 +435,14 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>الكتب الدينية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
         <img src="app/public/img/svg/rightArrow.svg" alt="" class="navgo" />
         <!-- ------ offer 1 ------ -->
         <div class="offer">
-          <a href="pages/detailes.html">
+          <a href="/detailes">
             <img src="app/public/img/books/beYou.jpg" /></a>
           <div class="type">
             <img src="app/public/img/svg/bookRed.svg" alt="" />
@@ -570,7 +570,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>الكتب التاريخية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
@@ -705,7 +705,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>الكتب السياسية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
@@ -842,7 +842,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>الكتب اللإقتصادية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
@@ -981,7 +981,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>كتب الطبخ</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">
@@ -1120,7 +1120,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
     <div class="current-offers">
       <div class="head">
         <p>أفضل الروايات الرومانسية</p>
-        <a href="pages/category.html">عرض الكل</a>
+        <a href="/category">عرض الكل</a>
       </div>
 
       <div class="offers">

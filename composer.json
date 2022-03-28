@@ -1,0 +1,16 @@
+{
+    "name": "hadeel/lib-branches",
+    "autoload": {
+          "psr-4": {
+            "App\\Controllers\\": "app/controllers/",
+            "App\\System\\": "app/system/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dely22",
+            "email": "almktaryh@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -137,7 +137,7 @@
                     </div>
                 </div>
                 <p class="condtion">بالضغط على " انهاء التسوق " فأنت توافق على <a href="">الشروط والأحكام </a>و <a href="#">سياسة الخصوصية</a></p>
-                <a href="stepper.html" class="addbtn"> تحديث سلة التسوق </a>
+                <a href="/stepper" class="addbtn"> تحديث سلة التسوق </a>
             </div>
         </div>
 
