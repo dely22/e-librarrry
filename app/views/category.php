@@ -11,29 +11,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15app/public/css/all.min.css" />
 
   <!-- custom css file link  -->
-  <link rel="stylesheet" href="app/publapp/public/css/style.css" />
-  <link rel="stylesheet" href="app/publapp/public/css/hom.css" />
-  <link rel="stylesheet" href="app/publapp/public/css/slide.css" />
+  <link rel="stylesheet" href="app/public/css/style.css" />
+  <link rel="stylesheet" href="app/public/css/hom.css" />
+  <link rel="stylesheet" href="app/public/css/slide.css" />
 </head>
 
 <body class="">
   <!-- header section starts  -->
   <header class="header" id="header">
     <nav class="navbar" class="">
-      <a href="#" onclick="document.getElementById('idlogin').style.display='block'"><img src="app/public/app/public/img/svg/svgexport-1.svg" class="nav_icon" /> ادخل لحسابك أو
+      <a href="#" onclick="document.getElementById('idlogin').style.display='block'"><img src="app/public/img/svg/svgexport-1.svg" class="nav_icon" /> ادخل لحسابك أو
         سجل الآن</a>
-      <a href="../index.html"><img src="app/public/app/public/img/svg/svgexport-2.svg" class="nav_icon" />الرئيسية</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-3.svg" class="nav_icon" />من نحن</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-4.svg" class="nav_icon" />اتصل بنا</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-5.svg" class="nav_icon" /> المساعدة</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-11.svg" class="nav_icon" />سياسة
+      <a href="../index.html"><img src="app/public/img/svg/svgexport-2.svg" class="nav_icon" />الرئيسية</a>
+      <a href="#"><img src="app/public/img/svg/svgexport-3.svg" class="nav_icon" />من نحن</a>
+      <a href="#"><img src="app/public/img/svg/svgexport-4.svg" class="nav_icon" />اتصل بنا</a>
+      <a href="#"><img src="app/public/img/svg/svgexport-5.svg" class="nav_icon" /> المساعدة</a>
+      <a href="#"><img src="app/public/img/svg/svgexport-11.svg" class="nav_icon" />سياسة
         الخصوصية</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-12.svg" class="nav_icon" /> اليمن YER
+      <a href="#"><img src="app/public/img/svg/svgexport-12.svg" class="nav_icon" /> اليمن YER
       </a>
-      <a href="#" id='switch_lang' onclick="switchrow">English<img src="app/public/app/public/img/svg/svgexport-14.svg" class="nav_icon" /></a>
+      <a href="#" id='switch_lang' onclick="switchrow">English<img src="app/public/img/svg/svgexport-14.svg" class="nav_icon" /></a>
     </nav>
     <div class="lose">
-      <a href="#" class="logo"><img src="app/public/app/public/img/logo.PNG" alt="logo" /> </a>
+      <a href="#" class="logo"><img src="app/public/img/logo.PNG" alt="logo" /> </a>
 
       <form action="">
         <input type="search" id="searchbar" placeholder="البحث" onkeyup="search_book()" />
@@ -94,7 +94,7 @@
             </div>
             <input type="tel" placeholder="رقم الجوال" name="number" required />
             <select id="country" name="country" aria-placeholder="رمز البلاد">
-              <img src="app/public/app/public/img/svg/svgexport-12.svg" />
+              <img src="app/public/img/svg/svgexport-12.svg" />
               <option dir="rtl" value="australia">+970</option>
             </select>
             <br />
@@ -120,7 +120,7 @@
               <p>
                 لديك حساب؟
                 <!-- <a  style="color: blue; cursor: pointer;" onclick="document.getElementById('idlog').style.display='block'" >تسجيل الدخول<img src="svg/svgexport-17.svg"> </a> -->
-                <span onclick="document.getElementById('idsing').style.display='none'" style="color: blue; cursor: pointer">تسجيل الدخول<img src="app/public/app/public/img/svg/svgexport-17.svg" /></span>
+                <span onclick="document.getElementById('idsing').style.display='none'" style="color: blue; cursor: pointer">تسجيل الدخول<img src="app/public/img/svg/svgexport-17.svg" /></span>
               </p>
             </div>
           </div>
@@ -136,19 +136,19 @@
 
         <div class="mySlides fade">
 
-          <img src="app/public/app/public/img/slider_img2.webp" style="width:100%">
+          <img src="app/public/img/slider_img2.webp" style="width:100%">
 
         </div>
 
         <div class="mySlides fade">
 
-          <img src="app/public/app/public/img/slider_img.webp" style="width:100%">
+          <img src="app/public/img/slider_img.webp" style="width:100%">
 
         </div>
 
         <div class="mySlides fade">
 
-          <img src="app/public/app/public/img/slider_img3.jpg" style="width:100%">
+          <img src="app/public/img/slider_img3.jpg" style="width:100%">
 
         </div>
 
@@ -187,9 +187,9 @@
       <div class="offers list">
         <!-- ------ offer 1 ------ -->
         <div class="offer seritem">
-          <a href="detailes.html"> <img src="app/public/app/public/img/books/beYou.jpg" alt="" /></a>
+          <a href="detailes.html"> <img src="app/public/img/books/beYou.jpg" alt="" /></a>
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">كن انت (كتاب الكتروني)</p>
@@ -201,10 +201,10 @@
           <p class="other"></p>
 
           <div class="options" id="group">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
             <!-- attToCart is for counter in js -->
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -212,9 +212,9 @@
         <!-- ------ offer 2 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/fullSelfTrust.jpg" alt="" />
+          <img src="app/public/img/books/fullSelfTrust.jpg" alt="" />
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
           <p class="title">الثقة التامة بالنفس (كتاب الكتروني)</p>
@@ -224,9 +224,9 @@
           </div>
           <p class="other"></p>
           <div class="options" id="group">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -234,10 +234,10 @@
         <!-- ------ offer 3 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/karmaDiagnosis.jpg" alt="" />
+          <img src="app/public/img/books/karmaDiagnosis.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -251,9 +251,9 @@
           <p class="other"></p>
 
           <div class="options" id="group">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -261,10 +261,10 @@
         <!-- ------ offer 4 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/realConfidence.jpg" alt="" />
+          <img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -278,9 +278,9 @@
           <p class="other"></p>
 
           <div class="options" id="group">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -288,10 +288,10 @@
         <!-- ------ offer 5 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/yourNewSelf.jpg" alt="" />
+          <img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -304,9 +304,9 @@
 
           <p class="other"></p>
           <div class="options">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
           <!-- -->
         </div>
@@ -314,10 +314,10 @@
         <!-- ------ offer 5 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/yourNewSelf.jpg" alt="" />
+          <img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -330,19 +330,19 @@
 
           <p class="other"></p>
           <div class="options" id="group">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
         <!-- ------ offer 5 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/yourNewSelf.jpg" alt="" />
+          <img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -355,19 +355,19 @@
 
           <p class="other"></p>
           <div class="options">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
           <!-- -->
         </div>
         <!-- ------ offer 4 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/realConfidence.jpg" alt="" />
+          <img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -381,19 +381,19 @@
           <p class="other"></p>
 
           <div class="options" id="group">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
         <!-- ------ offer 5 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/yourNewSelf.jpg" alt="" />
+          <img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -406,19 +406,19 @@
 
           <p class="other"></p>
           <div class="options">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <img src="app/public/app/public/img/svg/cartRed.svg" alt="" />
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <img src="app/public/img/svg/cartRed.svg" alt="" />
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
           <!-- -->
         </div>
         <!-- ------ offer 5 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/yourNewSelf.jpg" alt="" />
+          <img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -431,19 +431,19 @@
 
           <p class="other"></p>
           <div class="options">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
         <!-- ------ offer 4 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/realConfidence.jpg" alt="" />
+          <img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -457,18 +457,18 @@
           <p class="other"></p>
 
           <div class="options" id="group">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
         <!-- ------ offer 5 ------ -->
         <div class="offer seritem">
-          <img src="app/public/app/public/img/books/yourNewSelf.jpg" alt="" />
+          <img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -481,19 +481,19 @@
 
           <p class="other"></p>
           <div class="options">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
           <!-- -->
         </div>
         <!-- ------ offer 5 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/yourNewSelf.jpg" alt="" />
+          <img src="app/public/img/books/yourNewSelf.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -506,19 +506,19 @@
 
           <p class="other"></p>
           <div class="options">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
         <!-- ------ offer 4 ------ -->
         <div class="offer seritem">
           <!-- -->
-          <img src="app/public/app/public/img/books/realConfidence.jpg" alt="" />
+          <img src="app/public/img/books/realConfidence.jpg" alt="" />
 
           <div class="type">
-            <img src="app/public/app/public/img/svg/bookRed.svg" alt="" />
+            <img src="app/public/img/svg/bookRed.svg" alt="" />
             <span>كتاب الإلكتروني</span>
           </div>
 
@@ -532,9 +532,9 @@
           <p class="other"></p>
 
           <div class="options" id="group">
-            <img src="app/public/app/public/img/svg/star.svg" alt="" />
-            <a href="#" class="cart_icon"> <img src="app/public/app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
-            <img src="app/public/app/public/img/svg/inverseDirectionArrows.svg" alt="" />
+            <img src="app/public/img/svg/star.svg" alt="" />
+            <a href="#" class="cart_icon"> <img src="app/public/img/svg/cartRed.svg" title="أضف للسلة" class="shop" /></a>
+            <img src="app/public/img/svg/inverseDirectionArrows.svg" alt="" />
           </div>
 
         </div>
@@ -561,13 +561,13 @@
           <h4>تواصل معنا</h4>
           <div class="share">
             <a href="#">
-              <img src="app/public/app/public/img/svg/svgexport-58.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-59.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-60.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-61.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-62.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-63.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-64.svg" class="shar_icon" /></a>
+              <img src="app/public/img/svg/svgexport-58.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-59.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-60.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-61.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-62.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-63.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-64.svg" class="shar_icon" /></a>
           </div>
         </div>
       </div>
@@ -620,13 +620,13 @@
         </p>
       </div>
       <div class="brands">
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-65.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-66.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-67.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-68.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-69.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-70.svg" /></a>
-        <!-- <img src="app/public/app/public/img/payment.png" alt="payment image" /> -->
+        <a href="#"><img src="app/public/img/svg/svgexport-65.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-66.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-67.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-68.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-69.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-70.svg" /></a>
+        <!-- <img src="app/public/img/payment.png" alt="payment image" /> -->
       </div>
     </div>
   </footer>

@@ -11,10 +11,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15app/public/css/all.min.css" />
 
   <!-- custom css file link  -->
-  <link rel="stylesheet" href="app/publapp/public/css/style.css" />
-  <link rel="stylesheet" href="app/publapp/public/css/detail.css" />
-  <link rel="stylesheet" href="app/publapp/public/css/sing.css" />
-  <link rel="stylesheet" href="app/publapp/public/css/slide.css" />
+  <link rel="stylesheet" href="app/public/css/style.css" />
+  <link rel="stylesheet" href="app/public/css/detail.css" />
+  <link rel="stylesheet" href="app/public/css/sing.css" />
+  <link rel="stylesheet" href="app/public/css/slide.css" />
 
 </head>
 
@@ -22,20 +22,20 @@
   <!-- header section starts  -->
   <header class="header" id="header">
     <nav class="navbar" class="">
-      <a href="#" onclick="document.getElementById('idlogin').style.display='block'"><img src="app/public/app/public/img/svg/svgexport-1.svg" class="nav_icon" /> ادخل لحسابك أو
+      <a href="#" onclick="document.getElementById('idlogin').style.display='block'"><img src="app/public/img/svg/svgexport-1.svg" class="nav_icon" /> ادخل لحسابك أو
         سجل الآن</a>
-      <a href="../index.html"><img src="app/public/app/public/img/svg/svgexport-2.svg" class="nav_icon" />الرئيسية</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-3.svg" class="nav_icon" />من نحن</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-4.svg" class="nav_icon" />اتصل بنا</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-5.svg" class="nav_icon" /> المساعدة</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-11.svg" class="nav_icon" />سياسة
+      <a href="../index.html"><img src="app/public/img/svg/svgexport-2.svg" class="nav_icon" />الرئيسية</a>
+      <a href="#"><img src="app/public/img/svg/svgexport-3.svg" class="nav_icon" />من نحن</a>
+      <a href="#"><img src="app/public/img/svg/svgexport-4.svg" class="nav_icon" />اتصل بنا</a>
+      <a href="#"><img src="app/public/img/svg/svgexport-5.svg" class="nav_icon" /> المساعدة</a>
+      <a href="#"><img src="app/public/img/svg/svgexport-11.svg" class="nav_icon" />سياسة
         الخصوصية</a>
-      <a href="#"><img src="app/public/app/public/img/svg/svgexport-12.svg" class="nav_icon" /> اليمن YER
+      <a href="#"><img src="app/public/img/svg/svgexport-12.svg" class="nav_icon" /> اليمن YER
       </a>
-      <a href="#" id='switch_lang' onclick="switchrow">English<img src="app/public/app/public/img/svg/svgexport-14.svg" class="nav_icon" /></a>
+      <a href="#" id='switch_lang' onclick="switchrow">English<img src="app/public/img/svg/svgexport-14.svg" class="nav_icon" /></a>
     </nav>
     <div class="lose">
-      <a href="#" class="logo"><img src="app/public/app/public/img/logo.PNG" alt="logo" /> </a>
+      <a href="#" class="logo"><img src="app/public/img/logo.PNG" alt="logo" /> </a>
 
       <form action="">
         <input type="search" id="searchbar" placeholder="البحث" onkeyup="search_book()" />
@@ -125,7 +125,7 @@
             لديك حساب؟
             <a style="color: blue; cursor: pointer;" onclick="document.getElementById('idsing').style.display='none'; 
                     document.getElementById('idlogin').style.display='block'">
-              تسجيل الدخول<img src="app/public/app/public/img/svg/svgexport-17.svg"> </a>
+              تسجيل الدخول<img src="app/public/img/svg/svgexport-17.svg"> </a>
 
           </p>
         </div>
@@ -142,19 +142,19 @@
 
         <div class="mySlides fade">
 
-          <img src="app/public/app/public/img/slider_img2.webp" style="width:100%">
+          <img src="app/public/img/slider_img2.webp" style="width:100%">
 
         </div>
 
         <div class="mySlides fade">
 
-          <img src="app/public/app/public/img/slider_img.webp" style="width:100%">
+          <img src="app/public/img/slider_img.webp" style="width:100%">
 
         </div>
 
         <div class="mySlides fade">
 
-          <img src="app/public/app/public/img/slider_img3.jpg" style="width:100%">
+          <img src="app/public/img/slider_img3.jpg" style="width:100%">
 
         </div>
 
@@ -198,9 +198,9 @@
       <div class="continer">
         <div class="book">
           <a href="#" onclick="document.getElementById('show-details').style.display='block';">
-            <img src="app/public/app/public/img/books/beYou.jpg"></a>
+            <img src="app/public/img/books/beYou.jpg"></a>
           <div class="slido">
-            <img src="app/public/app/public/img/books/beYou.jpg">
+            <img src="app/public/img/books/beYou.jpg">
           </div>
         </div>
 
@@ -243,17 +243,17 @@
           </div>
           <div class="add">
             <button> 1 &blacktriangledown;</button>
-            <button> <a href="checkout.html"><img src="app/public/app/public/img/svg/cartRed.svg"> أضف الى السلة</a> </button>
+            <button> <a href="checkout.html"><img src="app/public/img/svg/cartRed.svg"> أضف الى السلة</a> </button>
           </div>
           <div class="prop">
             <div class="row">
-              <a href="#"><img src="app/public/app/public/img/svg/svgexport-16.svg" class="nav_icon" />تسوق امن
+              <a href="#"><img src="app/public/img/svg/svgexport-16.svg" class="nav_icon" />تسوق امن
               </a>
-              <a href="#"><img src="app/public/app/public/img/svg/svgexport-4.svg" class="nav_icon" />أصلي و مضمون
+              <a href="#"><img src="app/public/img/svg/svgexport-4.svg" class="nav_icon" />أصلي و مضمون
               </a>
 
             </div>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-3.svg" class="nav_icon" /> شحن سريع ومجاني </a>
+            <a href="#"><img src="app/public/img/svg/svgexport-3.svg" class="nav_icon" /> شحن سريع ومجاني </a>
           </div>
           <hr>
           <div class="shar">
@@ -280,9 +280,9 @@
         <span onclick="document.getElementById('show-details').style.display='none'" class="close" title=" أغلق">&times;</span>
       </div>
       <div class="sl-content">
-        <img class="bookImgSlides" src="app/public/app/public/img/books/beYou.jpg" />
-        <img class="bookImgSlides" src="app/public/app/public/img/books/fullSelfTrust.jpg" />
-        <img class="bookImgSlides" src="app/public/app/public/img/books/realConfidence.jpg" />
+        <img class="bookImgSlides" src="app/public/img/books/beYou.jpg" />
+        <img class="bookImgSlides" src="app/public/img/books/fullSelfTrust.jpg" />
+        <img class="bookImgSlides" src="app/public/img/books/realConfidence.jpg" />
         <div class="contSlid" style="width: 100%">
           <div class="leftslid" onclick="plusDivs(1)">
             &#10095;
@@ -291,9 +291,9 @@
             &#10094;
           </div>
           <div class="imgslid">
-            <img src="app/public/app/public/img/books/beYou.jpg" class="imghover demo" onclick="currentDiv(1)" />
-            <img src="app/public/app/public/img/books/fullSelfTrust.jpg" class="imghover demo" onclick="currentDiv(2)" />
-            <img src="app/public/app/public/img/books/realConfidence.jpg" class="imghover demo" onclick="currentDiv(3)" />
+            <img src="app/public/img/books/beYou.jpg" class="imghover demo" onclick="currentDiv(1)" />
+            <img src="app/public/img/books/fullSelfTrust.jpg" class="imghover demo" onclick="currentDiv(2)" />
+            <img src="app/public/img/books/realConfidence.jpg" class="imghover demo" onclick="currentDiv(3)" />
           </div>
         </div>
       </div>
@@ -315,13 +315,13 @@
           <h4>تواصل معنا</h4>
           <div class="share">
             <a href="#">
-              <img src="app/public/app/public/img/svg/svgexport-58.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-59.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-60.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-61.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-62.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-63.svg" class="shar_icon" /></a>
-            <a href="#"><img src="app/public/app/public/img/svg/svgexport-64.svg" class="shar_icon" /></a>
+              <img src="app/public/img/svg/svgexport-58.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-59.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-60.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-61.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-62.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-63.svg" class="shar_icon" /></a>
+            <a href="#"><img src="app/public/img/svg/svgexport-64.svg" class="shar_icon" /></a>
           </div>
         </div>
       </div>
@@ -374,13 +374,13 @@
         </p>
       </div>
       <div class="brands">
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-65.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-66.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-67.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-68.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-69.svg" /></a>
-        <a href="#"><img src="app/public/app/public/img/svg/svgexport-70.svg" /></a>
-        <!-- <img src="app/public/app/public/img/payment.png" alt="payment image" /> -->
+        <a href="#"><img src="app/public/img/svg/svgexport-65.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-66.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-67.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-68.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-69.svg" /></a>
+        <a href="#"><img src="app/public/img/svg/svgexport-70.svg" /></a>
+        <!-- <img src="app/public/img/payment.png" alt="payment image" /> -->
       </div>
     </div>
   </footer>
