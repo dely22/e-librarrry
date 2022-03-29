@@ -1,0 +1,212 @@
+/*  browse by Types  */
+.book-types {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .typ-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    /* width: 150px; */
+  }
+  .sec-title{
+    color: hsl(355, 69%, 16%);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2.2rem;
+    margin-inline-start: 3rem;
+}
+  .typ-container img, .navgo{
+    width: 20px;
+    cursor: pointer;
+  }
+  .typ-container .section {
+    width: 16.5rem;
+    height: 125px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 1px 5px -1px rgb(0 0 0 / 40%);
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  .section img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  /* Galary */
+.galary{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+  .galary .box{
+    display: flex;
+    margin: 0 2rem;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+  }
+  .galary .box img{
+    width: 36rem;
+    padding: 1rem;
+    margin: .3rem;
+    height: 13rem;
+
+  }
+  .galary  img{
+    width: 97%;
+    height: 15rem;
+
+  }
+  /*  current offers  */
+  .current-offers .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px;
+    
+  }
+  .current-offers .head p {
+    font-weight: bold;
+    font-size: 1.9rem;
+    margin-inline-start: 1rem;
+  }
+  .current-offers a {
+    color: #0052cc;
+  }
+  .current-offers .offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 50px;
+  }
+  .current-offers .offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 30%);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0 10px;
+    flex-wrap: wrap;
+  }
+  .current-offers .offer .alert{
+    position: relative;
+    padding: .3rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:10;
+    background: rgb(170, 12, 12);
+    color: white;
+    font-weight: bold;
+
+ }
+  .current-offers .offer >img {
+    width: 210px;
+    height: 220px;
+  }
+  .current-offers .offer .type {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+  }
+  .current-offers .offer .type span{
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .current-offers .offer .title {
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    color: #aaa;
+    height: 2.5rem;
+  }
+  .current-offers .price {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .current-offers .price p{
+    margin: 0;
+  }
+  .current-offers .price p:first-child{
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  .current-offers .price p:last-child{
+    margin-bottom: 6px;
+    font-size: .9rem;
+  }
+  .current-offers p.other{
+    height: 1rem;
+  }
+  .current-offers .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;;
+  }
+  .current-offers .options img:not(:nth-child(2)){
+    width: 25px;
+    margin: 0 .4rem;
+  }
+  .current-offers .options img:nth-child(2){
+    width: 45px;
+  }
+
+  /* media  */
+ 
+  @media (max-width:768px) {
+     /* Galary */
+  .galary .box{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .galary .box img{
+    width: 100%;
+    margin: 0;
+    padding: 0.8rem 0;
+
+  }
+  .galary  img{
+    width: 100%;
+  }
+  .current-offers .offer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+  }
+  @media (max-width:991px) {
+    .galary .box{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .galary img,.galary .box img {
+      width: 100%;
+    }
+    .offers,   .typ-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    
+  
+  
+  }

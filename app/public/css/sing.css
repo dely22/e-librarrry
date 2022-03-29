@@ -1,0 +1,169 @@
+/* .sing > button {
+    width: 25px;
+    height: 25px;
+    background-color: #d4050c5e;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    top: 3px;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  .sing > button:hover {
+    background-color: #d4050b;
+  }
+  .sing img {
+    max-width: 100%;
+  } */
+
+  /* h2 {
+    margin-top: 0;
+    box-shadow: 0px 12px 3px -13px black;
+    padding: 20px;
+  } */
+
+  /* Chrome, Safari, Edge, Opera */
+  .singup input::-webkit-outer-spin-button,
+  .singup input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  .singup  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  #countryCode {
+    border: none;
+    background-color: #eff2f7;
+    padding: 11px;
+    border-radius: 5px;
+    width: 27%;
+    margin-bottom: 5px;
+  }
+  .singup .phone-number {
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #phone {
+    width: 65%;
+  }
+  .singup form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+  }
+  .singup  input[type="number"],
+  .singup  input[type="text"],
+  .singup input[type="email"] {
+    background-color: #eff2f7;
+    border: none;
+    margin-bottom: 5px;
+    width: 73%;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  .singup  input[type="text"]:focus-visible,
+  .singup input[type="number"]:focus-visible,
+  .singup input[type="email"] {
+    outline: none;
+  }
+  .singup .password {
+    position: relative;
+  }
+  .singup .forgot {
+    text-decoration: none;
+    color: #3e65a2;
+    font-weight: bold;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+  }
+  .singup input[type="text"]::placeholder,
+  .singup input[type="email"]::placeholder {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    font-family: "Tajawal", sans-serif;
+    font-size: 0.7rem;
+  }
+  .singup input[type="number"]::placeholder {
+    font-family: "Tajawal", sans-serif;
+  }
+  .singup label {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #b5babc;
+  }
+  .singup .check {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 76%;
+    margin-top: 3px;
+    /* margin-bottom: 5px; */
+  }.singup .check a{
+    color: var(--blue);
+  }
+  .singup input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+  }
+  .singup input[type="submit"] {
+    margin-top: 7px;
+  }
+  .singup .btn {
+    padding: 10px 50px;
+    background: #e5e9f4;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #adb2bd;
+    font-family: tajawal;
+    cursor: pointer;
+    width: 76%;
+    margin-bottom: 10px;
+  }
+
+  .singup p {
+    font-size: 0.7rem;
+    color: #b5babc;
+    width: 100%;
+    text-align: start;
+    padding-right: 25%;
+    margin: 0 0 5px;
+  }
+
+  .singup .log {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    transition: 0.5s;
+  }
+  #show-singUp {
+    position: absolute;
+    z-index: 111;
+  }
+  .singup .hide {
+    display: none;
+  }
+  .singup p.sing {
+    font-size: 0.9rem;
+    margin: auto;
+  }
+  .singup p.sing img {
+    width: 11px;
+    position: relative;
+    top: 2px;
+  }
