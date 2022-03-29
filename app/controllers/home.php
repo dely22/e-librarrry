@@ -1,16 +1,36 @@
 <?php
-require_once 'controller.php';
+
+namespace App\Controllers;
+
+use App\Controllers\Controller;
+
 class Home extends Controller
 {
 
-    function __construct()
+
+    public function index()
     {
-        echo "";
+
+        $this->view('home');
     }
 
-    function index()
+    public function category()
     {
+        $this->view('category');
+    }
 
-        $this->view("home");
+
+    public function detailes()
+    {
+        $this->view('detailes');
+    }
+
+    public function checkout()
+    {
+        $this->view('checkout');
+    }
+    public function stepper()
+    {
+        $this->view('stepper');
     }
 }
