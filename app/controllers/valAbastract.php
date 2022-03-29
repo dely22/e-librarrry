@@ -5,7 +5,6 @@
 abstract class ValAbastract
 {
 
-
     protected function required($value)
     {
         $val = trim($value);
