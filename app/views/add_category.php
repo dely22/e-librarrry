@@ -125,8 +125,8 @@
 
 
               <div class="pt-4">
-                <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
-                <button type="reset" class="btn btn-label-secondary">Cancel</button>
+                <button type="submit" class="btn btn-primary me-sm-3 me-1">إضافة</button>
+                <button type="reset" class="btn btn-label-secondary">إلغاء</button>
               </div>
             </form>
           </div>
@@ -155,10 +155,6 @@
 
   </div>
   <!-- / Layout wrapper -->
-
-
-
-
 
 
 
