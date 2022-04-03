@@ -1,7 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{REQUEST_FILE_NAME} !/(app/public/css|app/public/img|js)/
-RewriteCond %{REQUEST_FILE_NAME} !-d
-RewriteCond %{REQUEST_FILE_NAME} !-f
-
-RewriteRule ^(.+)$ index.php?url=$1 [QSA,l]
