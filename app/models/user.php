@@ -1,16 +1,21 @@
 <?php
-class User{
+namespace coding\app\models;
 
-    function insert(){
-        echo "insert function of user model";
+
+
+class User extends Model{
+   
+
+    function __construct()
+    {
+        parent::$tblName="users";
+        
     }
 
-    function select($id){
-        $all_users=array('ahmed','afnan','ali','baabood');
-        if($id>sizeof($all_users)-1)
-        return "incorrect user id ";
-        return $all_users[$id];
-       
+    function __set($name, $value)
+    {
+        $this->$name=$value;
+        
     }
+
 }
-?>

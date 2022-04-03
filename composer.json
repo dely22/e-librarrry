@@ -1,9 +1,10 @@
 {
-    "name": "hadeel/lib-branches",
+  "name": "hadeel/lib-branches",
     "autoload": {
           "psr-4": {
             "App\\Controllers\\": "app/controllers/",
-            "App\\System\\": "app/system/"
+            "App\\System\\": "app/system/",
+               "coding\\": "./"
         }
     },
     "authors": [
@@ -12,5 +13,8 @@
             "email": "almktaryh@gmail.com"
         }
     ],
-    "require": {}
+
+  "require": {
+    "vlucas/phpdotenv": "^5.4"
+  }
 }
